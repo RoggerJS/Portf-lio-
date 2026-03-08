@@ -1,0 +1,89 @@
+/***Limpar Formatações***/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/***Genericas***/
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #252525;
+}
+h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+h2{
+    color: #e7efff;
+}
+h3{
+    color: 565656;
+    background: #cccccc;
+    padding: 5px;
+}
+p{
+    color: #434d6d;
+}
+
+
+/***Header ***/
+
+#header{
+    background-color: #14213d;
+    padding: 15px;
+    text-align: right;
+}
+#logo, #menu{
+    padding: 10px;
+}
+#logo{
+    text-align: left;
+
+}
+#header a:link, #header a:visited{
+    color: #e7efff;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+#header a:hover{
+    color: #e5e5e5;
+    background-color: #14213d;
+    text-decoration: none;
+
+}
+.logocolor1{
+    color:#ffeeca
+}
+.logocolor2{
+    color: #ffffff;
+}
+.paginaatual{
+    
+    color:  #ffffff;
+    display: inline-block;
+    text-align: right;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 30px;
+
+}
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#posts{
+width: 660px;
+float: left;
+}
+.post{
+padding: 20px;
+margin-bottom: 20px;
+background-color: #000000;
+text-align: justify;
+border-radius: 20px;
+}
+.img-post{
+    width: 620px;
+    }
