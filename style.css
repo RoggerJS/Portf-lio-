@@ -90,3 +90,15 @@ border-radius: 20px;
 .img-post{
     width: 620px;
     }
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #000000;
+    color: #434d6d;
+}    
+a::after{
+    content: "→";
+    color: #14213d;
+    font-weight: bold;
+}
