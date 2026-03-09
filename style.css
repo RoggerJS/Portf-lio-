@@ -18,7 +18,7 @@ h2{
     color: #e7efff;
 }
 h3{
-    color: 565656;
+    color: #565656;
     background: #cccccc;
     padding: 5px;
 }
@@ -84,8 +84,12 @@ li{
     padding: 15px;
 }
 #posts{
-width: 660px;
-float: left;
+width: 100%;
+max-width: 660px;
+margin: auto;
+float: none;
+/***width: 660px;
+float: left;***/
 }
 .post{
 width: 95%;
@@ -97,7 +101,9 @@ text-align: justify;
 border-radius: 20px;
 }
 .img-post{
-    width: 620px;
+    max-width: 100%;
+    height: auto;
+    /*width: 620px;*/
     }
 #footer{
     clear: both;
@@ -110,4 +116,37 @@ a::after{
     content: "→";
     color: #14213d;
     font-weight: bold;
+}
+@media (max-width: 768px){
+
+#header{
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+}
+
+#menu{
+    display: block;
+}
+
+#menu a{
+    display: block;
+    margin: 5px 0;
+}
+
+.paginaatual{
+    display: block;
+    text-align: center;
+}
+
+#posts{
+    width: 100%;
+}
+
+.post{
+    width: 100%;
+}
+
 }
