@@ -117,7 +117,7 @@ a::after{
     color: #14213d;
     font-weight: bold;
 }
-@media (max-width: 768px){
+@media (max-width: 768px){ /*para casos com celular, reorganizar layout*/
 
 #header{
     text-align: center;
@@ -149,4 +149,34 @@ a::after{
     width: 100%;
 }
 
+}
+
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.campo label{
+    margin-bottom: 5px;
+    color: #e7efff;
+}
+.campo input,
+.campo textarea{
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    width: 300px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #14213d;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1f3a6d;
 }

@@ -27,9 +27,42 @@
     <div id="content">
         <div id="posts">
             <div class="post">
+                <h2>Entre em contato comigo</h2> <!--Vamos criar a caixinha de formulario-->
+                <!--<form id="formContato"> -->
+                    <form action="https://formspree.io/f/mkoqvgkj" method="post"> <!--eu quis deixar o formulario realmente funcional, e estive investigando essa ferramenta-->
+                    <div class="campo"><!--vou criar classes para organizar melhor o layout da caixa, a primeira tentativa ficou desorganizada-->
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" required> <!--investigando mais, precisei adicionar "name" e "required" para a ferramenta formspree funcionar-->
+                    </div>
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div><br>
+
+
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+                <p id="mensagemConfirmacao"></p>
+                <br><p>Estou sempre aberto a novas oportunidades, projetos e colaborações na área de tecnologia.</p>
 
             </div>
-        </div>
+        
+            <div class="post">
+                <h2>Outras formas de contato</h2>
+                <br><br>
+                <p>E-mail: acunarogger.br@gmail.com</p>
+                <a href="https://www.linkedin.com/in/acunarogger/">linkedIn</a><br>
+                <a href="https://github.com/RoggerJS">GitHub</a><br>
+                <a href="https://wa.me/5541987895585">WhatsApp</a>
+
+                <br><br>
+                <p>Curitiba - PR, Brasil</p>
+            </div> 
+        </div>         
     </div>
 
 
@@ -37,5 +70,6 @@
 <div id="footer">
     Desenvolvido por ROGGER ACUNA 
 </div> 
+<script src="script.js"></script>
 </body>
 </html>
