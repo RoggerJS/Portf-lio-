@@ -180,3 +180,18 @@ button{
 button:hover{
     background-color: #1f3a6d;
 }
+
+/**para modo oscuro e claro**/
+body.dark-mode{
+    background-color: #e5e5e5;
+    color: #14213d;
+}
+body.dark-mode .post{
+    background-color: #9198a3;
+}
+body.dark-mode h2{
+    color: #ffffff;
+}
+body.dark-mode p{
+    color: #14213d;
+}
